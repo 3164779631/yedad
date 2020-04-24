@@ -1,0 +1,256 @@
+#search {
+	宽度：717px；
+	边距：56px自动14px;
+	位置：绝对；
+	z索引：99；
+	最高：40％；
+	左：50％；
+	转换：translate（-50％，-50％）;
+}
+
+＃搜索表单{
+	职位：相对
+}
+
+＃search-text {
+/ *填充：9pt; * /
+	白颜色;
+	宽度：100％;
+	高度：50px；
+	字体大小：1个；
+	边界：0;
+	border-radius：9px;
+	背景颜色：rgba（240,240,240,0.3）;
+	文字缩进：50px；
+}
+
+＃搜索按钮{
+	位置：绝对；
+	顶部：0px；
+	左：0；
+	背景：无；
+	边界：0;
+	宽度：30px；
+	高度：36像素；
+	边距：7px 9pt 0;
+	行高：36px；
+	边框半径：3px
+}
+
+#search label：hover {
+	背景：rgba（240,240,240,0.3）;
+	光标：指针
+}
+
+＃搜索按钮i {
+	颜色：#fff;
+	字体大小：18px
+}
+
+.search-group {
+	显示：无；
+	左空白：75px
+}
+
+.s-current .search-type {
+	padding-left：0；
+	显示：块
+}
+
+.s-current {
+	显示：块
+}
+
+＃search-list {
+	职位：相对
+}
+
+.s-type {
+	位置：绝对；
+	最高：0;
+	左：0；
+	z索引：13；
+	宽度：75px
+}
+
+.s-type：hover {
+	高度：自动
+}
+
+.s-type> span {
+	显示：块；
+	高度：31像素；
+	宽度：75px
+}
+
+.s-type-list {
+	显示：无；
+	位置：绝对；
+	顶部：31px；
+	宽度：70px；
+	背景：rgba（0,0,0,0.9）;
+	border-radius：6px;
+	box-shadow：0 0 6px rgba（0,0,0，.16）;
+	填充：9pt 0;
+}
+
+.s-type-list：之前{
+	位置：绝对；
+	上衣：-1pc;
+	左：10px；
+	内容：'';
+	显示：块；
+	宽度：0;
+	高度：0；
+	边框：10px纯透明；
+	底部边框颜色：rgba（0,0,0,0.9）;
+}
+
+.s-type-list标签{
+	显示：块；
+	font-size：15px;
+	文本对齐：居中；
+	填充：2px 0;
+}
+
+.s-type-list .tile-lg {
+	颜色：#fff;
+	宽度：3pc;
+	高度：3pc;
+	font-size：1.25rem;
+	行高：3rem;
+	border-radius：.3rem;
+	显示：块；
+	保证金：自动
+}
+
+.s-type-list标签：悬停{
+	颜色：#fff
+}
+
+.s-type：hover .s-type-list {
+	显示：块；
+	padding-top：8像素
+}
+
+.type-text {
+	位置：绝对；
+	左：0；
+	宽度：75像素；
+	左空白：9pt；
+	字体大小：1个；
+	行高：31px
+}
+
+.type-text：之后{
+	内容：“ \ e6aa”;
+	字体家族：iconfont;
+	边距：0 0 0 10px
+}
+
+。搜索类型 {
+	空白：nowrap;
+	边距：0
+}
+
+.search-type标签{
+	边距：0
+}
+
+.search-type li {
+	显示：内联块
+}
+
+.search-type li标签{
+	显示：inline-block;
+	填充：0 11px;
+	font-size：14px;
+	行高：31px；
+	border-radius：3px 3px 0 0;
+	光标：指针
+}
+
+.search-type输入：checked + label，.search-type输入：hover + label {
+	背景颜色：rgba（240,240,240,0.3）;
+}
+
+.set-check {
+	页边距：3px；
+	字体大小：9pt
+}
+
+.set-check标签{
+	左边距：3px
+}
+
+.set-check输入，.set-check标签{
+	不透明度：0；
+	过渡：所有.3缓解
+}
+
+.search-type li {
+	列表样式：无；
+	显示：内联块
+}
+
+@media屏幕和（max-width：767px）{
+	#search {
+/ *边距：25px自动15px * /
+	}
+
+	。搜索类型 {
+		溢出：滚动
+	}
+
+	.search-list {
+		高度：30px；
+		溢出y：隐藏；
+		溢出x：滚动;
+		空格：nowrap
+	}
+}
+
+@media屏幕和（最大宽度：768px）{
+	#search {
+/ *保证金：0自动; * /
+		宽度：90％;
+	}
+
+	。搜索类型 {
+		溢出：滚动
+	}
+
+	.search-list {
+		高度：30px；
+		溢出y：隐藏；
+		溢出x：滚动;
+		空格：nowrap
+	}
+}
+
+.fa-2x {
+	padding-top：15像素；
+	字号：1.5em；
+}
+.wei {
+    列表样式：无；
+    职位：相对
+    文字缩进：10px；
+}
+.wei：hover {
+     背景：rgba（240,240,240,0.3）;
+}
+。一种{
+     显示：inline-block;
+     宽度：90％;
+     颜色：#fff;
+     高度：27像素；
+     行高：30px;
+     溢出：隐藏
+     文字溢出：省略号；
+}
+.ko {
+	显示：无；
+    顶部：10px；
+    职位：相对
+}
